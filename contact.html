@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      <a href="index.html">back</a>
+    </p>
+    <h1>Contact Me</h1>
+    <form action="mailto:christian@student.dev-island.org" method="post">
+      <div>
+        <fieldset>
+          <legend>What be Ye?</legend>
+          <label>
+            Friend
+            <input type="radio" name="f_f" value="Friend" />
+          </label>
+          <br />
+          <label>
+            Foe
+            <input required type="radio" name="f_f" value="Foe" />
+          </label>
+        </fieldset>
+      </div>
+      <br />
+      <div>
+        <label for="name">Name:</label>
+        <br />
+        <input required type="name" id="name" name="name" />
+      </div>
+      <br />
+      <div>
+        <label for="email">Email:</label>
+        <br />
+        <input required type="email" id="email" name="email" />
+        <br />
+      </div>
+      <br />
+      <div>
+        <label>What's up?</label>
+        <br />
+        <textarea required name="message" cols="30" rows="10"></textarea>
+      </div>
+
+      <div>
+        <button type="submit">Submit</button>
+      </div>
+    </form>
+  </body>
+</html>
